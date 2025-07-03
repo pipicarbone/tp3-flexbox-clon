@@ -423,6 +423,11 @@ header{
     gap: 10px;
 }
 
+.items ul{
+    display: flex;
+    gap: 10px;
+}
+
 .items a{
     color: #5c5e6c;
     transition: transform 1s ease, color 1s ease;
