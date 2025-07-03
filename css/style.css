@@ -1,3 +1,4 @@
+/* ALGUNOS COMANDOS */
 *{
     margin: 0px;
     padding: 0px;
@@ -8,16 +9,13 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* HEADER */
 a{
     text-decoration: none;
 }
 
 p{
     color: gray;
-}
-
-.titulo{
-    color: black;
 }
 
 header{
@@ -59,7 +57,6 @@ header{
 }
 
 
-
 .servicios{
     display: flex;
     justify-content: flex-end;
@@ -94,7 +91,6 @@ header{
 }
 
 
-
 .titulohero{
     display: flex;
     justify-content: center;
@@ -106,9 +102,11 @@ header{
     color: white;
     font-size: 100px;
 }
+/* FIN HEADER */
 
 
-
+/* MAIN */
+/* PRIMERA SECCION */
 .parrafos-general{
     display: flex;
     justify-content: end;
@@ -175,15 +173,20 @@ header{
 .apartado-iconos img:hover{
     transform: scale(1.05);
 }
+/* FIN PRIMERA SECCION */
 
 
-
+/* SEGUNDA SECCION */
 .grupos{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 400px;
     height: 50vh;
+}
+
+.titulo{
+    color: black;
 }
 
 .grupos div{
@@ -200,9 +203,10 @@ header{
     font-size: 38px;
     margin-bottom: 5px;
 }
+/* FIN SEGUNDA SECCION */
 
 
-
+/* IMAGENES DE PERSONAS */
 .oficinistas{
     display: flex;
     font-size: 0;
@@ -211,9 +215,10 @@ header{
 .oficinistas img{
     width: 25%;
 }
+/* FIN */
 
 
-
+/* COMIENZO APARTADO CON BOTON */
 .accionar{
     background-image: url(../img/fondotriangulo.jpg);
     background-position: center;
@@ -254,10 +259,10 @@ header{
     transform: scale(1.03);
     color: white;
 }
+/* FIN APARTADO CON BOTON */
 
 
-
-
+/* TERCERA SECCION */
 .contacto{
     background-color: #22242A;
     display: flex;
@@ -399,8 +404,10 @@ header{
     transform: scale(1.03);
     color: white;
 }
+/* FIN TERCERA SECCION */
+/* FIN MAIN */
 
-
+/* FOOTER */
 .pie{
     background-color: #26272E;
     display: flex;
@@ -439,3 +446,4 @@ header{
 .items li:last-child::after{
     content: "";
 }
+/* FIN FOOTER */
